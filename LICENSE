@@ -1,0 +1,159 @@
+PHOTO SIZE LABELS («РАЗМЕРЫ ФОТО»)
+ЛИЦЕНЗИЯ НА ИСПОЛЬЗОВАНИЕ. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+Версия 1.0, 2026
+
+Copyright (c) 2026 T1desLuck (tidesluck@icloud.com). Все права защищены.
+
+Эта лицензия распространяется на всё содержимое репозитория
+https://github.com/T1desLuck/PhotoSizeLabels и сайта
+https://t1desluck.github.io/PhotoSizeLabels/, включая панель «Размеры фото»
+для Adobe Photoshop (папка PhotoSizeLabels и архив PhotoSizeLabels_panel.zip),
+скрипт photo_size_labels.jsx, установщик PhotoSizeLabelsSetup.exe, документацию,
+изображения и код сайта (вместе: «Программа»).
+
+Программа предоставляется по лицензии, а не продаётся. Используя Программу,
+вы принимаете условия ниже. Если вы с ними не согласны, не используйте её.
+
+1. ЧТО РАЗРЕШЕНО
+
+1.1. Скачивать Программу из этого репозитория или с официального сайта и
+     устанавливать её на свои компьютеры.
+1.2. Использовать Программу бесплатно в личных и коммерческих целях, в том
+     числе в работе фотостудии или при подготовке заказов клиентов.
+1.3. Менять параметры в блоке «НАСТРОЙКИ» скрипта и значения в панели для
+     собственного использования.
+1.4. Делиться ссылкой на этот репозиторий или на официальный сайт.
+1.5. Просматривать код и создавать форки внутри GitHub в пределах прав, которые
+     даёт GitHub по своим Условиям использования. Эти права даёт платформа,
+     и они не распространяются на что-либо за её пределами.
+
+2. ЧТО ЗАПРЕЩЕНО БЕЗ ПИСЬМЕННОГО РАЗРЕШЕНИЯ АВТОРА
+
+2.1. Распространять Программу или любую её часть: выкладывать копии и зеркала
+     на других сайтах и в репозиториях, на файлообменниках, торрентах,
+     в облачных хранилищах, чатах, каналах и соцсетях.
+2.2. Включать Программу в сборки, наборы и «паки», в установщики Photoshop или
+     другого ПО, в архивы и образы, бесплатные или платные.
+2.3. Продавать, сдавать в аренду, сублицензировать Программу, а также брать плату
+     за доступ к ней, за её установку или настройку как за отдельный продукт.
+2.4. Публиковать изменённые версии и производные работы, перепаковывать,
+     переименовывать Программу и выдавать её за свою.
+2.5. Копировать код или изображения Программы в другие проекты.
+2.6. Удалять или менять уведомления об авторских правах, имя автора и
+     контакты поддержки.
+
+Если вам нужно разрешение (например, для включения в учебный курс или
+в сборку), напишите на tidesluck@icloud.com.
+
+3. ПРАВА АВТОРА
+
+Все права, прямо не предоставленные настоящей лицензией, сохраняются за
+автором. Лицензия не передаёт вам право собственности на Программу.
+
+4. ТОВАРНЫЕ ЗНАКИ
+
+Adobe и Photoshop являются товарными знаками Adobe Inc. Программа является
+независимой разработкой, не связана с Adobe, не одобрена и не поддерживается ею.
+
+5. ОТКАЗ ОТ ГАРАНТИЙ И ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+
+ПРОГРАММА ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ
+ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ И
+БЕЗОШИБОЧНОЙ РАБОТЫ. АВТОР НЕ НЕСЁТ ОТВЕТСТВЕННОСТИ ЗА УБЫТКИ, ПОТЕРЮ ДАННЫХ,
+ПОВРЕЖДЕНИЕ ДОКУМЕНТОВ ИЛИ ИНОЙ УЩЕРБ, ВОЗНИКШИЙ ПРИ ИСПОЛЬЗОВАНИИ ПРОГРАММЫ,
+В МАКСИМАЛЬНОЙ СТЕПЕНИ, РАЗРЕШЁННОЙ ПРИМЕНИМЫМ ПРАВОМ. Перед использованием
+сохраняйте копию вашего файла.
+
+6. ПРЕКРАЩЕНИЕ
+
+Лицензия действует, пока вы соблюдаете её условия. При нарушении она
+прекращается автоматически, и вы обязаны прекратить использование Программы и
+удалить все её копии, кроме тех, что хранятся в этом репозитории.
+
+7. РЕДАКЦИИ ЯЗЫКОВ
+
+Текст составлен на русском и английском языках. При расхождениях приоритет имеет
+русский текст.
+
+
+======================================================================
+ENGLISH VERSION
+======================================================================
+
+PHOTO SIZE LABELS ("РАЗМЕРЫ ФОТО")
+END-USER LICENSE. ALL RIGHTS RESERVED.
+Version 1.0, 2026
+
+Copyright (c) 2026 T1desLuck (tidesluck@icloud.com). All rights reserved.
+
+This license covers everything in the repository
+https://github.com/T1desLuck/PhotoSizeLabels and the website
+https://t1desluck.github.io/PhotoSizeLabels/, including the "Размеры фото"
+panel for Adobe Photoshop (the PhotoSizeLabels folder and the
+PhotoSizeLabels_panel.zip archive), the photo_size_labels.jsx script, the
+PhotoSizeLabelsSetup.exe installer, documentation, images and website code
+(together, the "Software").
+
+The Software is licensed, not sold. By using it you accept the terms below.
+If you do not agree, do not use the Software.
+
+1. WHAT IS ALLOWED
+
+1.1. Download the Software from this repository or the official website and
+     install it on your own computers.
+1.2. Use the Software free of charge for personal and commercial purposes,
+     including the work of a photo studio and preparing client orders.
+1.3. Change the parameters in the settings block of the script and the values
+     in the panel for your own use.
+1.4. Share a link to this repository or to the official website.
+1.5. View the code and fork it within GitHub to the extent GitHub's Terms of
+     Service grant those rights. Those rights are granted by the platform and
+     do not extend to anything outside it.
+
+2. WHAT IS PROHIBITED WITHOUT THE AUTHOR'S WRITTEN PERMISSION
+
+2.1. Redistributing the Software or any part of it: posting copies or mirrors
+     on other websites and repositories, file-sharing services, torrents,
+     cloud storage, chats, channels and social networks.
+2.2. Including the Software in bundles, collections or "packs", in Photoshop or
+     other software installers, in archives and images, free or paid.
+2.3. Selling, renting or sublicensing the Software, or charging for access to it,
+     or for installing or configuring it as a separate product.
+2.4. Publishing modified versions and derivative works, repackaging or renaming
+     the Software, or presenting it as your own.
+2.5. Copying the Software's code or images into other projects.
+2.6. Removing or altering copyright notices, the author's name and the support
+     contact.
+
+If you need permission (for example, to include it in a course or a bundle),
+write to tidesluck@icloud.com.
+
+3. AUTHOR'S RIGHTS
+
+All rights not expressly granted by this license are reserved by the author.
+This license does not transfer ownership of the Software to you.
+
+4. TRADEMARKS
+
+Adobe and Photoshop are trademarks of Adobe Inc. The Software is an independent
+work, is not affiliated with, endorsed by or supported by Adobe.
+
+5. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND OF
+ERROR-FREE OPERATION. THE AUTHOR SHALL NOT BE LIABLE FOR ANY LOSSES, LOSS OF
+DATA, DAMAGE TO DOCUMENTS OR ANY OTHER DAMAGE ARISING FROM THE USE OF THE
+SOFTWARE, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. Keep a copy of
+your file before using the Software.
+
+6. TERMINATION
+
+This license lasts as long as you comply with its terms. If you breach them it
+terminates automatically, and you must stop using the Software and delete all
+copies of it, other than those kept in this repository.
+
+7. LANGUAGES
+
+This text is written in Russian and English. In case of discrepancy the
+Russian text prevails.

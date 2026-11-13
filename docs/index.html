@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="google-site-verification" content="pNAXgAXlYu5qDllqDVfK1qjOPmd6Jwfdh2osPGioV2M" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Подписи размеров фото в Photoshop: плагин «Размеры фото»</title>
+<meta name="description" content="Бесплатная панель и скрипт для Photoshop: находят фото на листе, считают размер в мм и рисуют размерные стрелки с подписями. 3×4, 35×45, 10×15. Windows.">
+<link rel="canonical" href="https://t1desluck.github.io/PhotoSizeLabels/">
+<link rel="alternate" hreflang="ru" href="https://t1desluck.github.io/PhotoSizeLabels/">
+<link rel="alternate" hreflang="en" href="https://t1desluck.github.io/PhotoSizeLabels/en/">
+<link rel="alternate" hreflang="x-default" href="https://t1desluck.github.io/PhotoSizeLabels/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="theme-color" content="#1b1b1b">
+<meta name="color-scheme" content="dark">
+<meta name="author" content="T1desLuck">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Размеры фото / Photo Size Labels">
+<meta property="og:title" content="Размеры фото: подписи размеров фото в Photoshop одной кнопкой">
+<meta property="og:description" content="Бесплатная панель и скрипт для Photoshop: находят фото на листе, считают размер в мм и рисуют размерные стрелки с подписями. 3×4, 35×45, 10×15. Windows.">
+<meta property="og:url" content="https://t1desluck.github.io/PhotoSizeLabels/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:image" content="https://t1desluck.github.io/PhotoSizeLabels/assets/img/og-ru.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Фото на листе с размерными стрелками и подписями в миллиметрах">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Размеры фото: подписи размеров фото в Photoshop одной кнопкой">
+<meta name="twitter:description" content="Бесплатная панель и скрипт для Photoshop: находят фото на листе, считают размер в мм и рисуют размерные стрелки с подписями. 3×4, 35×45, 10×15. Windows.">
+<meta name="twitter:image" content="https://t1desluck.github.io/PhotoSizeLabels/assets/img/og-ru.png">
+<!-- Яндекс.Вебмастер: <meta name="yandex-verification" content="КОД" /> -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.className+=' js'</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://t1desluck.github.io/PhotoSizeLabels/#website",
+   "url": "https://t1desluck.github.io/PhotoSizeLabels/",
+   "name": "Размеры фото / Photo Size Labels",
+   "inLanguage": [
+    "ru",
+    "en"
+   ],
+   "publisher": {
+    "@id": "https://t1desluck.github.io/PhotoSizeLabels/#author"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://t1desluck.github.io/PhotoSizeLabels/#author",
+   "name": "T1desLuck",
+   "url": "https://github.com/T1desLuck",
+   "email": "tidesluck@icloud.com"
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://t1desluck.github.io/PhotoSizeLabels/#app",
+   "name": "Размеры фото (Photo Size Labels)",
+   "alternateName": [
+    "Photo Size Labels",
+    "PhotoSizeLabels"
+   ],
+   "description": "Панель и скрипт для Adobe Photoshop: находят все фото на листе, считают размер в миллиметрах и рисуют размерные стрелки с подписями, которые остаются частью растра.",
+   "url": "https://t1desluck.github.io/PhotoSizeLabels/",
+   "inLanguage": "ru",
+   "applicationCategory": "MultimediaApplication",
+   "applicationSubCategory": "Photoshop plugin",
+   "operatingSystem": "Windows 10, Windows 11",
+   "softwareVersion": "1.0.0",
+   "softwareRequirements": "Adobe Photoshop CC 2015 или новее",
+   "fileSize": "0.3 MB",
+   "downloadUrl": "https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe",
+   "installUrl": "https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe",
+   "screenshot": "https://t1desluck.github.io/PhotoSizeLabels/assets/img/panel.png",
+   "image": "https://t1desluck.github.io/PhotoSizeLabels/assets/img/og-ru.png",
+   "datePublished": "2026-11-12",
+   "dateModified": "2026-11-12",
+   "author": {
+    "@id": "https://t1desluck.github.io/PhotoSizeLabels/#author"
+   },
+   "featureList": [
+    "Автоматический поиск всех фото на листе",
+    "Подписи высоты и ширины в миллиметрах",
+    "Любые размеры фото: 3×4, 35×45, 10×15 и другие",
+    "Подписи остаются частью растра",
+    "Установщик с удалением, русский и английский"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://t1desluck.github.io/PhotoSizeLabels/#faq",
+   "inLanguage": "ru",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Панели нет в меню «Расширения». Что делать?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Полностью закройте Photoshop (проверьте диспетчер задач) и запустите заново. Панель находится в Окно → Расширения → Размеры фото . В некоторых портативных и модифицированных сборках поддержка панелей вырезана. Тогда используйте скрипт: он делает то же самое, только запускается через «Файл → Сценарии»."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какие версии Photoshop поддерживаются?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Панель рассчитана на Photoshop CC 2015 и новее. Скрипт работает везде, где есть меню «Файл → Сценарии»."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Windows показывает предупреждение при запуске установщика",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "У файла нет платной цифровой подписи, поэтому SmartScreen может написать «Windows защитила ваш компьютер». Нажмите «Подробнее», затем «Выполнить в любом случае». Установщик работает только в вашей учётной записи, ничего в системе не меняет и не требует прав администратора."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какие слои подписываются?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Все видимые слои выше самого нижнего (фонового). Пропускаются слои на весь лист, текстовые и корректирующие слои, слои меньше 5 мм и слои, имя которых начинается с «_». Размеры считаются по разрешению документа, поэтому в шаблоне должно быть указано верное разрешение, например 300 пикс/дюйм."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как удалить?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Запустите установщик ещё раз и выберите «Удалить программу» или откройте «Параметры → Приложения». Если ставили вручную, удалите папку PhotoSizeLabels из папки расширений."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Интерфейс только на русском?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Установщик двуязычный. Кнопки панели и единица на подписях («мм») пока на русском. Единицу можно заменить на свою в настройках скрипта, параметр unitText ."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Это бесплатно? Можно ли делиться?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Пользоваться можно бесплатно, в том числе в коммерческой работе. Распространять нельзя: выкладывать копии, пересобирать, перепродавать. Лучше отправьте ссылку на эту страницу. Условия в файле LICENSE в репозитории ."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="sr" href="#main">К содержимому</a>
+<header class="top">
+ <div class="wrap">
+  <a class="brand" href="./"><img src="assets/img/logo-128.png" width="30" height="30" alt="">Размеры фото</a>
+  <nav class="nav" aria-label="Меню"><a href="#how">Как работает</a><a href="#features">Возможности</a><a href="#install">Установка</a><a href="#faq">Вопросы</a></nav>
+  <span class="sp"></span>
+  <div class="lang" role="group" aria-label="Language"><span aria-current="true">RU</span><a href="en/" hreflang="en" lang="en" title="English">EN</a></div>
+  <a class="btn btn-primary btn-sm" href="https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe" rel="noopener" aria-label="Скачать установщик"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg><span>Скачать</span></a>
+ </div>
+</header>
+<main id="main">
+<section class="hero">
+ <div class="ruler" aria-hidden="true"></div>
+ <div class="wrap">
+  <div class="hero-text">
+   <p class="chip"><i></i>Плагин для Photoshop</p>
+   <h1>Подписи размеров фото в&nbsp;Photoshop <em>одной кнопкой</em></h1>
+   <p class="lead">Панель сама находит все фото на листе, считает размер в миллиметрах и рисует размерные стрелки с подписями. Подходит для листов с фото на документы: 3×4, 3,5×4,5, 9×12, 10×15 и любые другие размеры. Подписи остаются частью растра.</p>
+   <div class="cta">
+    <a class="btn btn-primary btn-lg" href="https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Скачать установщик</a>
+    <a class="btn btn-lg" href="#install">Панель и скрипт</a>
+   </div>
+   <ul class="facts"><li>Windows 10 и 11</li><li>Photoshop CC 2015 и новее</li><li>Бесплатно</li><li>Без Adobe Cloud</li><li>0,3 МБ</li></ul>
+  </div>
+  <div class="ps" id="demo" role="group" aria-label="Демонстрация: панель «Размеры фото» рисует подписи на листе с фото" data-busy="Рисую подписи…" data-ok="Готово: подписи добавлены для фото: 7" data-removed="Подписи убраны" data-none="Подписей на листе нет">
+   <div class="ps-bar" aria-hidden="true"><img src="assets/img/logo-128.png" width="16" height="16" alt=""><span>Файл</span><span>Слои</span><span>Окно</span><span>Справка</span></div>
+   <div class="ps-body">
+    <div class="ps-tools" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18M12 3l-2.5 2.5M12 3l2.5 2.5M12 21l-2.5-2.5M12 21l2.5-2.5M3 12l2.5-2.5M3 12l2.5 2.5M21 12l-2.5-2.5M21 12l-2.5 2.5"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" stroke-dasharray="3 2.5"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v14h14M3 7h14v14"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5h12M12 5v14M9 19h6"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></svg></div>
+    <div class="ps-doc">
+     <div class="ps-tab">Лист_10x15.psd @ 100% (RGB/8)</div>
+     <div class="ps-canvas"><div class="sheet-box"><svg id="sheet" class="sheet" viewBox="0 0 150 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Фото на листе с размерными стрелками и подписями в миллиметрах" focusable="false"><defs><linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe8f1"/><stop offset="1" stop-color="#bccbdb"/></linearGradient></defs><rect width="150" height="110" fill="#ffffff"/><clipPath id="pc0"><rect x="8" y="7" width="30" height="40"/></clipPath><g clip-path="url(#pc0)"><rect x="8" y="7" width="30" height="40" fill="url(#pbg)"/><ellipse cx="23" cy="47" rx="12" ry="13.6" fill="#5c7690"/><circle cx="23" cy="23" r="5.1" fill="#7d97b0"/></g><clipPath id="pc1"><rect x="44" y="7" width="30" height="40"/></clipPath><g clip-path="url(#pc1)"><rect x="44" y="7" width="30" height="40" fill="url(#pbg)"/><ellipse cx="59" cy="47" rx="12" ry="13.6" fill="#5c7690"/><circle cx="59" cy="23" r="5.1" fill="#7d97b0"/></g><clipPath id="pc2"><rect x="80" y="7" width="30" height="40"/></clipPath><g clip-path="url(#pc2)"><rect x="80" y="7" width="30" height="40" fill="url(#pbg)"/><ellipse cx="95" cy="47" rx="12" ry="13.6" fill="#5c7690"/><circle cx="95" cy="23" r="5.1" fill="#7d97b0"/></g><clipPath id="pc3"><rect x="116" y="7" width="30" height="40"/></clipPath><g clip-path="url(#pc3)"><rect x="116" y="7" width="30" height="40" fill="url(#pbg)"/><ellipse cx="131" cy="47" rx="12" ry="13.6" fill="#5c7690"/><circle cx="131" cy="23" r="5.1" fill="#7d97b0"/></g><clipPath id="pc4"><rect x="12" y="58" width="35" height="45"/></clipPath><g clip-path="url(#pc4)"><rect x="12" y="58" width="35" height="45" fill="url(#pbg)"/><ellipse cx="29.5" cy="103" rx="14" ry="15.3" fill="#5c7690"/><circle cx="29.5" cy="76" r="5.95" fill="#7d97b0"/></g><clipPath id="pc5"><rect x="58" y="58" width="35" height="45"/></clipPath><g clip-path="url(#pc5)"><rect x="58" y="58" width="35" height="45" fill="url(#pbg)"/><ellipse cx="75.5" cy="103" rx="14" ry="15.3" fill="#5c7690"/><circle cx="75.5" cy="76" r="5.95" fill="#7d97b0"/></g><clipPath id="pc6"><rect x="104" y="58" width="35" height="45"/></clipPath><g clip-path="url(#pc6)"><rect x="104" y="58" width="35" height="45" fill="url(#pbg)"/><ellipse cx="121.5" cy="103" rx="14" ry="15.3" fill="#5c7690"/><circle cx="121.5" cy="76" r="5.95" fill="#7d97b0"/></g><g class="labels" fill="#111" style="font-family:Arial,'Liberation Sans',Helvetica,sans-serif;font-size:2.9px"><g class="lab" style="--i:0"><path d="M39.9 7L39.35 9.1L40.45 9.1Z"/><rect x="39.8" y="8.68" width="0.2" height="13.12"/><path d="M39.9 47L39.35 44.9L40.45 44.9Z"/><rect x="39.8" y="32.2" width="0.2" height="13.12"/><rect x="38.4" y="6.94" width="2.4" height="0.12"/><rect x="38.4" y="46.94" width="2.4" height="0.12"/><text transform="translate(39.9 27) rotate(-90)" text-anchor="middle" dominant-baseline="central">40 мм</text><path d="M8 48.9L10.1 48.35L10.1 49.45Z"/><rect x="9.68" y="48.8" width="8.12" height="0.2"/><path d="M38 48.9L35.9 48.35L35.9 49.45Z"/><rect x="28.2" y="48.8" width="8.12" height="0.2"/><rect x="7.94" y="47.4" width="0.12" height="2.4"/><rect x="37.94" y="47.4" width="0.12" height="2.4"/><text x="23" y="48.9" text-anchor="middle" dominant-baseline="central">30 мм</text></g><g class="lab" style="--i:1"><path d="M75.9 7L75.35 9.1L76.45 9.1Z"/><rect x="75.8" y="8.68" width="0.2" height="13.12"/><path d="M75.9 47L75.35 44.9L76.45 44.9Z"/><rect x="75.8" y="32.2" width="0.2" height="13.12"/><rect x="74.4" y="6.94" width="2.4" height="0.12"/><rect x="74.4" y="46.94" width="2.4" height="0.12"/><text transform="translate(75.9 27) rotate(-90)" text-anchor="middle" dominant-baseline="central">40 мм</text><path d="M44 48.9L46.1 48.35L46.1 49.45Z"/><rect x="45.68" y="48.8" width="8.12" height="0.2"/><path d="M74 48.9L71.9 48.35L71.9 49.45Z"/><rect x="64.2" y="48.8" width="8.12" height="0.2"/><rect x="43.94" y="47.4" width="0.12" height="2.4"/><rect x="73.94" y="47.4" width="0.12" height="2.4"/><text x="59" y="48.9" text-anchor="middle" dominant-baseline="central">30 мм</text></g><g class="lab" style="--i:2"><path d="M111.9 7L111.35 9.1L112.45 9.1Z"/><rect x="111.8" y="8.68" width="0.2" height="13.12"/><path d="M111.9 47L111.35 44.9L112.45 44.9Z"/><rect x="111.8" y="32.2" width="0.2" height="13.12"/><rect x="110.4" y="6.94" width="2.4" height="0.12"/><rect x="110.4" y="46.94" width="2.4" height="0.12"/><text transform="translate(111.9 27) rotate(-90)" text-anchor="middle" dominant-baseline="central">40 мм</text><path d="M80 48.9L82.1 48.35L82.1 49.45Z"/><rect x="81.68" y="48.8" width="8.12" height="0.2"/><path d="M110 48.9L107.9 48.35L107.9 49.45Z"/><rect x="100.2" y="48.8" width="8.12" height="0.2"/><rect x="79.94" y="47.4" width="0.12" height="2.4"/><rect x="109.94" y="47.4" width="0.12" height="2.4"/><text x="95" y="48.9" text-anchor="middle" dominant-baseline="central">30 мм</text></g><g class="lab" style="--i:3"><path d="M147.9 7L147.35 9.1L148.45 9.1Z"/><rect x="147.8" y="8.68" width="0.2" height="13.12"/><path d="M147.9 47L147.35 44.9L148.45 44.9Z"/><rect x="147.8" y="32.2" width="0.2" height="13.12"/><rect x="146.4" y="6.94" width="2.4" height="0.12"/><rect x="146.4" y="46.94" width="2.4" height="0.12"/><text transform="translate(147.9 27) rotate(-90)" text-anchor="middle" dominant-baseline="central">40 мм</text><path d="M116 48.9L118.1 48.35L118.1 49.45Z"/><rect x="117.68" y="48.8" width="8.12" height="0.2"/><path d="M146 48.9L143.9 48.35L143.9 49.45Z"/><rect x="136.2" y="48.8" width="8.12" height="0.2"/><rect x="115.94" y="47.4" width="0.12" height="2.4"/><rect x="145.94" y="47.4" width="0.12" height="2.4"/><text x="131" y="48.9" text-anchor="middle" dominant-baseline="central">30 мм</text></g><g class="lab" style="--i:4"><path d="M48.9 58L48.35 60.1L49.45 60.1Z"/><rect x="48.8" y="59.68" width="0.2" height="15.62"/><path d="M48.9 103L48.35 100.9L49.45 100.9Z"/><rect x="48.8" y="85.7" width="0.2" height="15.62"/><rect x="47.4" y="57.94" width="2.4" height="0.12"/><rect x="47.4" y="102.94" width="2.4" height="0.12"/><text transform="translate(48.9 80.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">45 мм</text><path d="M12 104.9L14.1 104.35L14.1 105.45Z"/><rect x="13.68" y="104.8" width="10.62" height="0.2"/><path d="M47 104.9L44.9 104.35L44.9 105.45Z"/><rect x="34.7" y="104.8" width="10.62" height="0.2"/><rect x="11.94" y="103.4" width="0.12" height="2.4"/><rect x="46.94" y="103.4" width="0.12" height="2.4"/><text x="29.5" y="104.9" text-anchor="middle" dominant-baseline="central">35 мм</text></g><g class="lab" style="--i:5"><path d="M94.9 58L94.35 60.1L95.45 60.1Z"/><rect x="94.8" y="59.68" width="0.2" height="15.62"/><path d="M94.9 103L94.35 100.9L95.45 100.9Z"/><rect x="94.8" y="85.7" width="0.2" height="15.62"/><rect x="93.4" y="57.94" width="2.4" height="0.12"/><rect x="93.4" y="102.94" width="2.4" height="0.12"/><text transform="translate(94.9 80.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">45 мм</text><path d="M58 104.9L60.1 104.35L60.1 105.45Z"/><rect x="59.68" y="104.8" width="10.62" height="0.2"/><path d="M93 104.9L90.9 104.35L90.9 105.45Z"/><rect x="80.7" y="104.8" width="10.62" height="0.2"/><rect x="57.94" y="103.4" width="0.12" height="2.4"/><rect x="92.94" y="103.4" width="0.12" height="2.4"/><text x="75.5" y="104.9" text-anchor="middle" dominant-baseline="central">35 мм</text></g><g class="lab" style="--i:6"><path d="M140.9 58L140.35 60.1L141.45 60.1Z"/><rect x="140.8" y="59.68" width="0.2" height="15.62"/><path d="M140.9 103L140.35 100.9L141.45 100.9Z"/><rect x="140.8" y="85.7" width="0.2" height="15.62"/><rect x="139.4" y="57.94" width="2.4" height="0.12"/><rect x="139.4" y="102.94" width="2.4" height="0.12"/><text transform="translate(140.9 80.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">45 мм</text><path d="M104 104.9L106.1 104.35L106.1 105.45Z"/><rect x="105.68" y="104.8" width="10.62" height="0.2"/><path d="M139 104.9L136.9 104.35L136.9 105.45Z"/><rect x="126.7" y="104.8" width="10.62" height="0.2"/><rect x="103.94" y="103.4" width="0.12" height="2.4"/><rect x="138.94" y="103.4" width="0.12" height="2.4"/><text x="121.5" y="104.9" text-anchor="middle" dominant-baseline="central">35 мм</text></g></g></svg></div></div>
+    </div>
+    <div class="ps-dock">
+     <div class="pnl">
+      <div class="ph">Размеры фото</div>
+      <div class="pnl-in">
+       <div class="count"><small>Найдено фото</small><b id="cnt">7</b><div><div>30×40 мм — 4 шт.</div><div>35×45 мм — 3 шт.</div></div></div>
+       <button class="pb" id="bRefresh" type="button">Уточнить</button>
+       <button class="pb p" id="bRun" type="button">Добавить подписи</button>
+       <button class="pb" id="bRemove" type="button">Убрать подписи</button>
+       <div class="st" id="st" role="status" aria-live="polite"></div>
+      </div>
+     </div>
+     <div class="pnl pnl-layers" aria-hidden="true">
+      <div class="ph">Слои</div>
+      <ul class="layers on" id="layers"><li class="grp">Размеры</li><li>Фото 1</li><li>Фото 2</li><li>Фото 3</li><li>Фото 4</li><li>Фото 5</li><li>Фото 6</li><li>Фото 7</li><li class="bg">Фон</li></ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="how">
+ <div class="wrap">
+  <p class="eyebrow">Как это работает</p>
+  <h2>Три шага вместо ручной разметки</h2>
+  <p class="sub">Каждый размер считается по самому слою, ничего вводить не нужно.</p>
+  <div class="grid g3 steps"><div class="step"><div><h3>Установите</h3><p>Запустите установщик и перезапустите Photoshop. Панель появится в меню <code>Окно → Расширения → Размеры фото</code>.</p></div></div><div class="step"><div><h3>Откройте шаблон</h3><p>Внизу фоновый слой листа, поверх него слои с фото любого размера. Можно двигать и дублировать как обычно.</p></div></div><div class="step"><div><h3>Нажмите «Добавить подписи»</h3><p>Высота и ширина каждого фото подписаны в миллиметрах. Это один шаг истории: отмена по <code>Ctrl+Z</code>.</p></div></div></div>
+ </div>
+</section>
+
+<section id="features" class="alt">
+ <div class="wrap">
+  <p class="eyebrow">Возможности</p>
+  <h2>Сделано под работу с листами</h2>
+  <p class="sub">Без ручных линий, без калькулятора и без лишних настроек.</p>
+  <div class="grid g3"><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/><rect x="8" y="8" width="8" height="8" rx="1"/></svg></div><h3>Любой размер</h3><p>3×4, 35×45, 10×15 или нестандартный: размер определяется по границам слоя.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 7l3-2.5M4 7l3 2.5M20 7l-3-2.5M20 7l-3 2.5M7 12v8m0-8h10v8H7"/></svg></div><h3>Высота и ширина у каждого фото</h3><p>Высота сбоку, ширина снизу: стрелки, выносные линии и цифры, как на чертеже.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 15l5-5 4 4 3-3 6 6"/></svg></div><h3>Часть растра</h3><p>Подписи лежат в группе слоёв «Размеры». После сохранения в JPG или PNG они остаются на картинке.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></div><h3>Настройки под себя</h3><p>Высота цифр, расстояние до фото, толщина линий, сторона подписи. Значения запоминаются.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg></div><h3>Умный отбор слоёв</h3><p>Пропускает фон, слои на весь лист, текстовые и корректирующие слои. Слой с именем на «_» исключается вручную.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18a4 4 0 010-8 5 5 0 019.6-1A4.5 4.5 0 0117 18z"/><path d="M4 4l16 16"/></svg></div><h3>Без облака и аккаунта</h3><p>Работает офлайн, не требует Adobe Creative Cloud и входа в учётную запись.</p></div></div>
+ </div>
+</section>
+
+<section id="install" class="dl">
+ <div class="wrap">
+  <p class="eyebrow">Установка</p>
+  <h2>Выберите, что скачать</h2>
+  <p class="sub">Все три варианта делают одно и то же. Различается только способ запуска.</p>
+  <div class="grid g3"><div class="card rec"><span class="tag">Рекомендуется</span><h3>Установщик</h3><ul class="meta"><li>Windows 10 и 11</li><li>.exe · 0,3 МБ</li></ul><p>Ставит панель за минуту, на русском и английском, с удалением из «Приложений». Права администратора не нужны.</p><a class="btn btn-primary btn-block" href="https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Скачать установщик</a></div><div class="card"><h3>Панель вручную</h3><ul class="meta"><li>Windows и Mac</li><li>.zip</li></ul><p>Для Mac и тех, кто любит копировать файлы сам. Внутри архива пошаговая инструкция.</p><a class="btn  btn-block" href="https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabels_panel.zip" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Скачать архив</a></div><div class="card"><h3>Только скрипт</h3><ul class="meta"><li>Любая сборка</li><li>.jsx</li></ul><p>Если в вашей сборке Photoshop нет панелей. Запускается через «Файл → Сценарии → Обзор».</p><a class="btn  btn-block" href="download/photo_size_labels.jsx" download="photo_size_labels.jsx"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Скачать скрипт</a></div></div>
+  <div class="shots">
+   <h3>Так выглядит установщик</h3>
+   <div class="grid g3"><figure class="shot"><a href="assets/img/installer-method-ru.webp" target="_blank" rel="noopener"><img src="assets/img/installer-method-ru.webp" width="720" height="500" loading="lazy" decoding="async" alt="Установщик «Размеры фото»: выбор между панелью и скриптом"></a><figcaption>Выбор: панель или только скрипт</figcaption></figure><figure class="shot"><a href="assets/img/installer-done-ru.webp" target="_blank" rel="noopener"><img src="assets/img/installer-done-ru.webp" width="720" height="500" loading="lazy" decoding="async" alt="Установщик «Размеры фото»: инструкция после установки панели"></a><figcaption>Подсказки после установки</figcaption></figure><figure class="shot"><a href="assets/img/installer-maint-ru.webp" target="_blank" rel="noopener"><img src="assets/img/installer-maint-ru.webp" width="720" height="500" loading="lazy" decoding="async" alt="Установщик «Размеры фото»: переустановка или удаление"></a><figcaption>Переустановка и удаление</figcaption></figure></div>
+  </div>
+ </div>
+</section>
+
+<section id="faq" class="alt">
+ <div class="wrap">
+  <p class="eyebrow">Вопросы</p>
+  <h2>Частые вопросы</h2>
+  <div class="faq" style="margin-top:28px"><details><summary>Панели нет в меню «Расширения». Что делать?</summary><div class="a"><p>Полностью закройте Photoshop (проверьте диспетчер задач) и запустите заново. Панель находится в <code>Окно → Расширения → Размеры фото</code>.</p><p>В некоторых портативных и модифицированных сборках поддержка панелей вырезана. Тогда используйте скрипт: он делает то же самое, только запускается через «Файл → Сценарии».</p></div></details><details><summary>Какие версии Photoshop поддерживаются?</summary><div class="a"><p>Панель рассчитана на Photoshop CC 2015 и новее. Скрипт работает везде, где есть меню «Файл → Сценарии».</p></div></details><details><summary>Windows показывает предупреждение при запуске установщика</summary><div class="a"><p>У файла нет платной цифровой подписи, поэтому SmartScreen может написать «Windows защитила ваш компьютер». Нажмите «Подробнее», затем «Выполнить в любом случае». Установщик работает только в вашей учётной записи, ничего в системе не меняет и не требует прав администратора.</p></div></details><details><summary>Какие слои подписываются?</summary><div class="a"><p>Все видимые слои выше самого нижнего (фонового). Пропускаются слои на весь лист, текстовые и корректирующие слои, слои меньше 5 мм и слои, имя которых начинается с «_». Размеры считаются по разрешению документа, поэтому в шаблоне должно быть указано верное разрешение, например 300 пикс/дюйм.</p></div></details><details><summary>Как удалить?</summary><div class="a"><p>Запустите установщик ещё раз и выберите «Удалить программу» или откройте «Параметры → Приложения». Если ставили вручную, удалите папку <code>PhotoSizeLabels</code> из папки расширений.</p></div></details><details><summary>Интерфейс только на русском?</summary><div class="a"><p>Установщик двуязычный. Кнопки панели и единица на подписях («мм») пока на русском. Единицу можно заменить на свою в настройках скрипта, параметр <code>unitText</code>.</p></div></details><details><summary>Это бесплатно? Можно ли делиться?</summary><div class="a"><p>Пользоваться можно бесплатно, в том числе в коммерческой работе. Распространять нельзя: выкладывать копии, пересобирать, перепродавать. Лучше отправьте ссылку на эту страницу. Условия в файле LICENSE в <a href="https://github.com/T1desLuck/PhotoSizeLabels">репозитории</a>.</p></div></details></div>
+ </div>
+</section>
+
+<section class="final">
+ <div class="wrap">
+  <h2>Подписи размеров за один клик</h2>
+  <p class="sub">Скачайте установщик, и следующий лист будет готов за секунды.</p>
+  <a class="btn btn-primary btn-lg" href="https://github.com/T1desLuck/PhotoSizeLabels/raw/main/PhotoSizeLabelsSetup.exe" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Скачать установщик</a>
+ </div>
+</section>
+</main>
+<footer>
+ <div class="wrap">
+  <p>© 2026 T1desLuck. Независимый инструмент, не связан с Adobe. Adobe и Photoshop являются товарными знаками Adobe Inc.</p>
+  <nav aria-label="Footer"><a href="https://github.com/T1desLuck/PhotoSizeLabels" rel="noopener">GitHub</a> <a href="https://github.com/T1desLuck/PhotoSizeLabels/blob/main/LICENSE" rel="noopener">Лицензия</a> <a href="mailto:tidesluck@icloud.com">Поддержка: tidesluck@icloud.com</a></nav>
+ </div>
+</footer>
+<script src="assets/js/demo.js" defer></script>
+</body>
+</html>
